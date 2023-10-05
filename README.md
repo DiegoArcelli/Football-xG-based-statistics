@@ -14,20 +14,23 @@ The program will also compute the xG or xGoT timeline of the two teams.
 
 ## How to install the program
 To install the program using a Python virtual environment first clone the repository using the command:
-
-`git clone repo`
+```
+git clone https://github.com/DiegoArcelli/Football-xG-based-statistics.git
+```
 
 Then create a virtual environment using the command:
-
-`python -m venv .env`
+```
+python -m venv .env
+```
 
 and activate the environment with the command
-
-`source .env/bin/activate`
-
+```
+source .env/bin/activate
+```
 After that install the requirements using the command:
-
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 ## How to run the program
 Onece the program is installed you can run it using the `main.py` file, by passing the following command line arguments:
@@ -38,8 +41,10 @@ Onece the program is installed you can run it using the `main.py` file, by passi
 
 For instance to compute the statistic based on xG and the plots of the Inter vs Milan derby of the 16/19/2023, you can run the following command:
 
-`python main.py --reference_stat xg --iterations 1000 --plots
- --url https://fbref.com/it/partite/10a39d69/Derby-della-Madonnina-Internazionale-Milan-16-Settembre-2023-Serie-A `
+```
+python main.py --reference_stat xg --iterations 1000 --plots
+ --url https://fbref.com/it/partite/10a39d69/Derby-della-Madonnina-Internazionale-Milan-16-Settembre-2023-Serie-A 
+```
 
 
 ## Warning 
