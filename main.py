@@ -134,21 +134,24 @@ if args.plots:
     get_single_bar_plot(
         outcomes_dist.keys(),
         outcomes_dist.values(),
+        "Probability",
         "Outcomes distribution",
+        HOME_TEAM,
+        AWAY_TEAM
     )
 
     get_bar_plot(
         results_dist.keys(),
         results_dist.values(),
         "Results distribution",
-        "Result",
+        "Results",
         "Probability"
     )
 
     get_bar_plot(
         goal_diff_dist.keys(),
         goal_diff_dist.values(),
-        "Goals difference distribution",
-        "Goals differnece",
+        "Goals differences distribution",
+        "Goals differences",
         "Probability"
     )
