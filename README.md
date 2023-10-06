@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 
 ## How to run the program
-Onece the program is installed you can run it using the `main.py` file, by passing the following command line arguments:
+Once the program is installed you can run it using the `main.py` file, by passing the following command line arguments:
 - `--url`: the URL of the FBref match report of the desidred game 
 - `--reference_stat`: the game statistic to use in order to compute the simulations of the game. The two admissible values are 'xg' and 'xgot'
 - `--iterations`: the number of simulations of the game to perform using the reference statistic
